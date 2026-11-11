@@ -1,8 +1,8 @@
 # Diamond - Price - Prediction
 
-- [LinkedIn](https://www.linkedin.com/in/hemakalyan)
+- [GitHub](https://github.com/anuragsingz)
   
-- [Medium](https://medium.com/@kalyanmurapaka274)
+- [Email](mailto:a4anuragjii@gmail.com)
 
 ## About The Project
 
@@ -121,15 +121,9 @@ If you prefer to use Docker, you can install and run the project using a Docker 
 
 ### MLflow Tracking
 
-We use MLflow to log and track our machine learning experiments. The MLFLOW_TRACKING_URI environment variable is set to the DagsHub repository's MLflow tracking URI.
-
-```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/HemaKalyan45/Diamond-Price-Prediction.mlflow
-
-export MLFLOW_TRACKING_USERNAME=HemaKalyan45
-
-export MLFLOW_TRACKING_PASSWORD=$DAGSHUB_TOKEN
-```
+We use MLflow to log and track our machine learning experiments. Set
+`MLFLOW_TRACKING_URI` to your tracking server and configure any required
+credentials with `MLFLOW_TRACKING_USERNAME` and `MLFLOW_TRACKING_PASSWORD`.
 
 ##  Usage and Configuration
 
@@ -166,7 +160,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Hema Kalyan Murapaka - [@kalyanmurapaka274@gmail.com](kalyanmurapaka274@gmail.com)
+Anurag Singh - [a4anuragjii@gmail.com](mailto:a4anuragjii@gmail.com)
 
 
 ## Acknowledgements
