@@ -1,10 +1,13 @@
 from src.DiamondPricePrediction.pipelines.Prediction_Pipeline import CustomData,PredictPipeline
 
-from flask import Flask,request,render_template,jsonify
+from flask import Flask,request,render_template,send_from_directory
 
 
 app=Flask(__name__)
 
+@app.route("/style.css")
+def style():
+    return send_from_directory("public", "style.css")
 
 @app.route("/",methods=["GET","POST"])
 def predict_datapoint():

@@ -95,6 +95,14 @@ Follow these steps to install and set up the project directly from the GitHub re
 6. **Access the Project**
    - Open a web browser or the appropriate client to access the project.
   
+## Deploy to Vercel
+
+1. Import `anuragsingz/Diamond-Price-Prediction-main` into Vercel.
+2. Set the project root directory to the repository root.
+3. Keep Vercel's automatic framework, install, and build settings.
+4. Deploy. The Python version and locked runtime dependencies are configured in
+   `.python-version`, `pyproject.toml`, and `uv.lock`.
+
 <br><br>
 ### Option 2: Installation from DockerHub
 
