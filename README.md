@@ -59,13 +59,13 @@ Follow these steps to install and set up the project directly from the GitHub re
    - Navigate to the directory where you want to install the project.
    - Run the following command to clone the GitHub repository:
      ```
-     git clone https://github.com/KalyanMurapaka45/Diamond-Price-Prediction.git
+     git clone https://github.com/anuragsingz/Diamond-Price-Prediction-main.git
      ```
 
 2. **Create a Virtual Environment** (Optional but recommended)
    - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
      ```
-     conda create -p <Environment_Name> python==<python version> -y
+     conda create -p <Environment_Name> python==3.12 -y
      ```
 
 3. **Activate the Virtual Environment** (Optional)
@@ -83,6 +83,8 @@ Follow these steps to install and set up the project directly from the GitHub re
      ```
      pip install -r requirements.txt
      ```
+     For model training and experiments, install the additional tools with
+     `pip install -r requirements-training.txt`.
 
 5. **Run the Project**
    - Start the project by running the appropriate command.

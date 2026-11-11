@@ -1,0 +1,6 @@
+-r requirements.txt
+seaborn
+ipykernel
+matplotlib
+dvc
+mlflow==2.12.2
